@@ -10,7 +10,23 @@ namespace RockPaperScissors
     {
         public override void MakeChoice()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Rock", "Paper", "scissors","Spok","Lizard");
+            Console.WriteLine("plase make a selection \n");
+            string Choice = Console.ReadLine();
+
+            switch (Choice)
+            {
+                case "Rock":
+                    Console.WriteLine("good luck!");
+                    break;
+                case "paper":
+                    Console.WriteLine("good luck!");
+                    break;
+            }
+            
         }
+        
+
+
     }
 }
