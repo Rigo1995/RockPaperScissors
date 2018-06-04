@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RockPaperScissors
 {
-    public class PlayerAi : Players
+    public class computer : Player
     {
         public override void MakeChoice()
         {

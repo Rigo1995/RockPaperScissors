@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace RockPaperScissors
 {
-    public class RockPaperScissors
+    public class Game
     {
         //member variable (HAS A)
-        public Players players;
-        public PlayerAi PlayerAi;
-        public Human Human;
+        public Player player1;
+        public Player player2;
 
 
             
@@ -25,5 +24,10 @@ namespace RockPaperScissors
 
 
         //member method (CAN DO)
+        public void SetPlayers()
+        {
+            player1 = new Human();
+            player1.MakeChoice();
+        }
     }
 }

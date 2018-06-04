@@ -6,27 +6,32 @@ using System.Threading.Tasks;
 
 namespace RockPaperScissors
 {
-    public abstract class Players
+    public abstract class Player
     {
-        public abstract void MakeChoice();
-
 
         //member variables
         public string Rock;
         public string Paper;
-        public string scissors;
+        public string Scissors;
         public string Lisard;
         public string Spok;
+        public int playerChoice;
 
 
-         //constructor
+        //constructor
 
 
 
 
 
-         //member methods
-         
+        //member methods
+
+        public abstract void MakeChoice();
+
+        //public enum Choice {Rock,Paper,Scissors,Lizard,Spok}
+       
+
+        }
 
 
 
@@ -39,4 +44,4 @@ namespace RockPaperScissors
 
      
 
-}
+
