@@ -11,7 +11,7 @@ namespace RockPaperScissors
         public override void MakeChoice()
         {
 
-            Console.WriteLine("Rock", "Paper", "Scissors", "Spok", "Lizard");
+            Console.WriteLine("Rock, Paper, Scissors, Lizard, Spok");
             Console.WriteLine("plase make a selection \n");
             string Choice = Console.ReadLine();
 
@@ -40,7 +40,9 @@ namespace RockPaperScissors
                     break;
                 default:
                     Console.WriteLine("not an appropriate choice try again");
+                    playerChoice = 5;
                     break;
+
             }
 
 

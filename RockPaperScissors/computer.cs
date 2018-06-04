@@ -6,10 +6,29 @@ using System.Threading.Tasks;
 
 namespace RockPaperScissors
 {
-    public class computer : Player
+    public class Computer : Player
     {
         public override void MakeChoice()
         {
+            Random rnd = new Random();
+            
+                string[] Choice = { "Rock", "Paper", "Scissors", "Lizard", "Spok" };
+
+            int index = rnd.Next(0,4); 
+
+                Console.WriteLine("{0}", Choice[index]);
+            Console.ReadLine();
+
+
+
+               // Console.WriteLine("makeChoice random choice:");
+
+
+
+
+
+
+            
             
         }
     }

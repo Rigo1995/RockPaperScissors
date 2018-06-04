@@ -10,11 +10,11 @@ namespace RockPaperScissors
     {
 
         //member variables
-        public string Rock;
-        public string Paper;
-        public string Scissors;
-        public string Lisard;
-        public string Spok;
+        public string rock;
+        public string paper;
+        public string scissors;
+        public string lisard;
+        public string spok;
         public int playerChoice;
 
 

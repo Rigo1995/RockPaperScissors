@@ -11,7 +11,7 @@ namespace RockPaperScissors
         //member variable (HAS A)
         public Player player1;
         public Player player2;
-
+        public Computer computer;
 
             
 
@@ -28,6 +28,9 @@ namespace RockPaperScissors
         {
             player1 = new Human();
             player1.MakeChoice();
+
+            computer = new Computer();
+            computer.MakeChoice(); 
         }
     }
 }
