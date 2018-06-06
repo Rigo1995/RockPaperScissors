@@ -22,11 +22,11 @@ namespace RockPaperScissors
                     Console.WriteLine("good luck!");
                     playerChoice = 0;
                     break;
-                case "paper":
+                case "Paper":
                     Console.WriteLine("good luck!");
                     playerChoice = 1;
                     break;
-                case "scissors":
+                case "Scissors":
                     Console.WriteLine("good luck!");
                     playerChoice = 2;
                     break;
@@ -42,17 +42,14 @@ namespace RockPaperScissors
                     Console.WriteLine("not an appropriate choice try again");
                     playerChoice = 5;
                     break;
-
+                    
+                    
             }
 
-
+            
 
         }
 
-        //    public override void MakeChoice()
-        //    {
-        //        throw new NotImplementedException();
-        //    }
-        //}
+       
     }
 }
